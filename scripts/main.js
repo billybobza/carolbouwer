@@ -31,7 +31,7 @@
                 zposition   : "front"
             },
             navbar: {
-                title: "RAVEN"
+                title: "CAROL BOUWER"
             },
             "navbars": [
                 {
@@ -39,7 +39,7 @@
                 }
             ],
             searchfield:{
-                add: true,
+                add: false,
                 search: false
             }
         });
