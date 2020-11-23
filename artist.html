@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Artist Bio</title>
+    <meta name="description" content="Raven theme tempalte">
+    <meta name="keywords" content="Raven theme template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/icons/favicon.ico" type="image/gif" sizes="16x16">
+    <!--Fonts-->
+    <link href="fonts/fonts.css" rel="stylesheet">
+    <!--Icons fonts-->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/linearicons/dist/web-font/style.css" rel="stylesheet">
+    <!--Styles-->
+    <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
+    <link href="vendor/jQuery.mmenu/dist/jquery.mmenu.all.css" rel="stylesheet">
+    <link href="vendor/css-hamburgers/dist/hamburgers.min.css" rel="stylesheet">
+    <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+    <!--Theme style-->
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header">
+        <div id="preloader">
+            <img src="images/icons/Forrest.gif" alt="loader" />
+        </div>
+        <!-- Menu mobile-->
+        <nav class="mobile-menu" id="js-menu-mobile">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                    
+                
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="artist.html">Artist</a>
+                </li>
+                
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                
+            </ul>
+        </nav>
+        <!--End Menu mobile-->
+        <!--TopBar-->
+        <!--<div class="topbar topbar-beta">
+            <div class="topbar__wrapper topbar__wrapper--light">
+                <div class="container">
+                    <div class="topbar__inner">
+                        <div class="topbar__format">
+                            <div class="topbar__format__item topbar__format__item--deep">
+                                <select>
+                                    <option data-display="EN">EN</option>
+                                    <option value="1">GB</option>
+                                </select>
+                            </div>
+                            <div class="topbar__format__item topbar__format__item--deep">
+                                <select>
+                                    <option data-display="EN">USA</option>
+                                    <option value="1">EUR</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="topbar__title topbar__title--deep">
+                            <p>Free shipping for standard order over $100</p>
+                        </div>
+                        <div class="topbar__social topbar__social--deep">
+                            <ul class="social-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-pinterest"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end topbar-->
+        <!--Navigation-->
+        <div class="rv-navbar rv-navbar-invert rv-navbar-plain">
+            <div class="rv-navbar-wrapper">
+                <div class="container">
+                    <div class="rv-navbar-inner clearfix">
+                        <div class="navbar-logo">
+                            <a href="index.html">Carol Bouwer</a>
+                        </div>
+                        <nav class="rv-navbar-menu">
+                            
+                            <ul class="rv-navbar-menu-list clear-list-style">
+                                <li class="dropdown">
+                                    <i class="fa fa-angle-down"></i>
+                                    <a href="index.html">Home</a>    
+                                </li>
+                                
+                                <li>
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="artist.html">Artist</a>
+                                </li>
+                            </ul>
+                            <div class="rv-navbar-utility">
+                                <div class="rv-navbar-shopcart">
+                                    <!--<div class="shopcart js-shop-cart">
+                                        <div class="number">
+                                            <span>2</span>-->
+                                        </div>
+                                        <button class="hamburger hamburger--collapse" type="button" id="js-hamburger">
+                                        <span class="hamburger-box">
+                                            <span class="hamburger-inner"></span>
+                                        </span>
+                                    </button>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="shopcart-inner">
+                                <table class="table shopcart-table">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="p-image">
+                                                    <img src="images/shop-cart-01.jpg" alt="Product cart" />
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="p-content">
+                                                    <p class="p-name">Clipper Vase</p>
+                                                    <p class="p-quanlity">Quanlity: 1</p>
+                                                    <p class="p-price">$ 22.00</p>
+                                                </div>
+                                            </td>
+                                            <td class="p-remove">
+                                                <a href="#">
+                                                    <i class="lnr lnr-cross"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-image">
+                                                <img src="images/shop-cart-02.jpg" alt="Product cart" />
+                                            </td>
+                                            <td class="p-content">
+                                                <p class="p-name">Pole Wardrobe</p>
+                                                <p class="p-quanlity">Quanlity: 1</p>
+                                                <p class="p-price">$ 75.00</p>
+                                            </td>
+                                            <td class="p-remove">
+                                                <a href="#">
+                                                    <i class="lnr lnr-cross"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="shopcart-total">
+                                    <p class="total">Total:</p>
+                                    <p class="price">$ 97.00</p>
+                                </div>
+                                <div class="shopcart-checkout">
+                                    <a class="rv-btn rv-btn-xs rv-btn-primary text-uppercase" href="check-out.html">Check Out</a>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="rv-navbar-shopcart">
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End navigation-->
+    </header>
+    <!-- End Header-->
+    <!-- Heading page-->
+    <div class="heading-page">
+        <div class="heading-page-wrapper" style="background: url(images/croc1900-445.png) center no-repeat;">
+            <div class="container">
+                <div class="heading-page-inner text-center">
+                    <div class="heading-page-title text-uppercase">
+                        <h3>The Artist</h3>
+                    </div>
+                    <div class="heading-page-breadcrumb2">
+                        <ul class="clear-list-style">
+                            <li>
+                                <ul class="clear-list-style">
+                                    <li>
+                                        <h2 style="color: #fff">Bouwer bags unique relationship with art icon - Ndebele art leather handbags with Esther Mahlangu</h2>
+                                        
+                                    </li>
+                                </ul>
+
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Heading page-->
+    <!-- Section Blog List-->
+    <section class="blog-grid blog-list">
+        <div class="section-wrapper">
+            <!--<div class="heading-section">
+                <div class="container">
+                    <div class="title">
+                        <h3>The Artist</h3>
+                    </div>
+                    <div class="social-share">
+                        <span>Share:</span>
+                        <ul class="social-list">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>-->
+            <div><br><br><br></div>
+            <div class="section-inner">
+                <div class="blog-list-list">
+                    <div class="blog-list-item">
+                        <div class="image">
+                            <img src="images/image_1-950-450.png" alt="The Best Collection 2016" />
+                        </div>
+                        <div class="content">
+                            <div class="content-title">
+                                <h3 class="title">
+                                    <a href="blog-single.html">An Amazing Bond</a>
+                                </h3>
+                            </div>
+                            <div class="content-context" style="text-align: justify; text-justify: inter-word;">
+                                <p><br>An unlikely bond has been formed between Carol Bouwer and Esther Mahlangu, a globally celebrated Ndebele artist from Mpumalanga, thanks to their love for handbags.<br>
+                                    "Esther Mahlangu is someone I have admired for many years and I always knew that we would do a collaboration together, what I did not foresee is that it would be a bag" Says Bouwer.  "This is a very exciting project where I get to pay homage to her, as she is as much of a bag lover as I am."</p>
+                            </div>
+                            <div class="content-link">
+                            
+                            </div>
+                        </div>
+                    </div><br><br><br>
+                    <div class="blog-list-item blog-list-item-invert">
+                        <div class="image">
+                            <img src="images/image_3-950-450.png" alt="" />
+                        </div>
+                        <div class="content">
+                            <div class="content-title">
+                                <h3 class="title">
+                                    <a href="blog-single.html">Mam' Esther</a>
+                                </h3>
+                            </div>
+                            <br>
+                            <div class="content-context" style="text-align: justify; text-justify: inter-word;">
+                                <p>"When Mam' Esther does all these collaborations what a lot of people don't realise is she's got a lot of urgency. She's very involved and the first two bags she rejected.
+                                    That's how we ended up with the round shape and we developed the story with her. She knows what she wants and she is a very strong and smart woman." Bouwer says.
+                                </p>
+                            </div>
+                            <div class="content-link">
+
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <div class="blog-list-item">
+                        <div class="image">
+                            <img src="images/image_2-950-450.png" alt="Chair Collection" /><br><br><br>
+                        </div>
+                        <div class="content">
+                            <div class="content-title">
+                                <h3 class="title">
+                                    <a href="blog-single.html">Exhibition</a>
+                                </h3>
+                            </div>
+                            
+                            <div class="content-context" style="text-align: justify; text-justify: inter-word;">
+                                <br>
+                                <p>The two women from two different walks of life have designed 50 custom-made bags, crafted with Mahlangu's signature artwork to mark her 85th birthday.
+                                    Made out of locally sourced python, ostrich and crocodile skin, the collection will first be displayed and for sale at the Melrose Gallery, in Johannesburg, from November 20th.
+                                    </p>
+                            </div>
+                            <div class="content-link">
+                                <a href="blog-single.html">
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Blog List-->
+    <!-- Footer-->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="footer-company">
+                                <div class="company-logo">
+                                    <a href="index.html">Carol Bouwer</a>
+                                </div>
+                                <ul class="company-contact">
+                                    <li>
+                                        <i class="lnr lnr-map-marker"></i>
+                                        <span>1st floor, 32 Parliament Street, Cape Town, 8001</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-phone"></i>
+                                        <span>+27 (0) 21 461 7890</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope"></i>
+                                        <span><a href="mailto:info@carolbouwerbags.co.za">info@carolbouwerbags.co.za</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-12">
+                            <div class="footer-ins">
+                                <div class="footer-heading">
+                                   
+                                </div>
+                                <ul class="ins-list">
+                                    <li>
+                                        <a href="images/meghan480.jpg" data-lightbox="roadtrip">
+                                            <img src="images/meghan480.jpg" alt="Instagram" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="images/bag480.jpg" data-lightbox="roadtrip">
+                                            <img src="images/bag480.jpg" alt="Instagram" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="images/sedi480.jpg" data-lightbox="roadtrip">
+                                            <img src="images/sedi480.jpg" alt="Instagram" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="images/bag(0)480.jpg" data-lightbox="roadtrip">
+                                            <img src="images/bag(0)480.jpg" alt="Instagram" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="images/kedi480.jpg" data-lightbox="roadtrip">
+                                            <img src="images/kedi480.jpg" alt="Instagram" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="images/bag(3)480.jpg" data-lightbox="roadtrip">
+                                            <img src="images/bag(3)480.jpg" alt="Instagram" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="images/bag(4)480.jpg" data-lightbox="roadtrip">
+                                            <img src="images/bag(4)480.jpg" alt="Instagram" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="images/bag(5)480.jpg" data-lightbox="roadtrip">
+                                            <img src="images/bag(5)480.jpg" alt="Instagram" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br>
+                        <img align="right" src="images/logo.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            
+        </div>
+    </footer>
+    <!-- End Footer-->
+    <!-- Javascript-->
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendor/lightbox2/dist/js/lightbox.min.js"></script>
+    <script src="vendor/jQuery.mmenu/dist/jquery.mmenu.all.min.js"></script>
+    <script src="vendor/headroom.js/dist/headroom.min.js"></script>
+    <script src="vendor/headroom.js/dist/jQuery.headroom.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script>
+        lightbox.option({
+              'resizeDuration': 200,
+              'wrapAround': true
+          })
+    </script>
+    <script src="vendor/masonry/dist/masonry.pkgd.min.js"></script>
+    <script src="scripts/rv-masonry.js"></script>
+</body>
+
+</html>

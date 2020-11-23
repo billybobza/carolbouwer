@@ -4301,6 +4301,11 @@ input:focus {
   color: #fff;
 }
 
+.heading-page .heading-page-wrapper .heading-page-inner .heading-page-breadcrumb2 ul li a {
+  font-size: 18px;
+  color: #fff;
+}
+
 .heading-page .heading-page-wrapper .heading-page-inner .heading-page-breadcrumb ul li:after {
   content: '\\';
   color: #cccccc;
@@ -5907,4 +5912,11 @@ input:focus {
 .mail-box-widget .mail-input button:hover {
   background: #917a6c;
   color: #fff;
+}
+
+.centre-artist-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
